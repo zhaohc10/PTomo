@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://databricks.com/solutions/by-use-case -->
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" src="./Team _PTomo_files/cc545fdb66"></script><script src="./Team _PTomo_files/nr-632.min.js"></script><script id="hs-analytics" src="./Team _PTomo_files/438089.js"></script><script async="" src="./Team _PTomo_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>By Use Case | Databricks</title>
+
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://databricks.com/xmlrpc.php">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://databricks.com/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://databricks.com/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://databricks.com/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://databricks.com/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://databricks.com/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://databricks.com/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://databricks.com/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://databricks.com/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://databricks.com/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="https://databricks.com/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://databricks.com/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="https://databricks.com/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://databricks.com/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="https://databricks.com/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="By Use Case">
+	<meta property="og:url" content="https://databricks.com/solutions/by-use-case">
+	<meta property="article:published_time" content="2015-06-07">
+	<meta property="article:modified_time" content="2015-06-11">
+	<meta property="og:site_name" content="Databricks">
+	<meta name="twitter:card" content="summary">
+<!-- /SEO Ultimate -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/databricks.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Team _PTomo_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="databricks-css-bootstrap-css" href="./Team _PTomo_files/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="databricks-css-fancybox-css" href="./Team _PTomo_files/jquery.fancybox.css" type="text/css" media="all">
+<link rel="stylesheet" id="databricks-css-main-css" href="./Team _PTomo_files/main.css" type="text/css" media="all">
+<link rel="stylesheet" id="hubspot-css" href="./Team _PTomo_files/hubspot.css" type="text/css" media="all">
+<script type="text/javascript" src="./Team _PTomo_files/jquery.js"></script>
+<script type="text/javascript" src="./Team _PTomo_files/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./Team _PTomo_files/external-tracking.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://databricks.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://databricks.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.2.2">
+<link rel="canonical" href="./Team _PTomo_files/Team _PTomo.html">
+<link rel="shortlink" href="https://databricks.com/?p=4058">
+<style type="text/css">/* Use Cases Listing */ @media screen and (min-width: 768px) { .use-cases-listing-section img { float: right; } } @media screen and (min-width: 991px) { .use-cases-listing-section img { margin-right: 10px; } } @media screen and (min-width: 1170px) { .use-cases-listing-section img { margin-right: 20px; } } /* CTA Section */ .use-cases-cta-section { padding-top: 60px !important; padding-bottom: 60px !important; } .use-cases-cta-section .section-header { margin-bottom: 20px; }</style><!-- Google Analytics Tracking by Google Analyticator 6.4.9: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-44077918-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+<body class="page page-id-4058 page-child parent-pageid-4056 page-template page-template-template-sections page-template-template-sections-php loaded">
+  <div class="body-header">
+    <nav class="navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="search-toggle navbar-toggle navbar-header-button collapsed" data-toggle="collapse" data-target="#header-mobile-navbar-search-collapse">
+          <span class="sr-only">Toggle Search</span>
+        </button>
+
+          <a class="navbar-brand" href="https://databricks.com/">
+            <span class="sr-only">Databricks</span>
+          </a>
+
+          <a href="https://databricks.com/blog" class="blog-title">
+            <span class="sr-only">Blog</span>
+          </a>
+
+          <button type="button" class="main-navbar-toggle navbar-toggle navbar-header-button collapsed" data-toggle="collapse" data-target="#header-navbar-menu-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+
+          <button type="button" class="blog-navbar-toggle navbar-toggle navbar-header-button collapsed" data-toggle="collapse" data-target="#header-navbar-menu-collapse">
+            <span class="sr-only">Toggle Blog navigation</span>
+          </button>
+
+          <div id="header-mobile-navbar-search-collapse" class="header-search-container collapse">
+            <div class="search-form"><form class="form form-search" action="https://databricks.com/" method="get"><div class="form-group"><div class="form-search-label" for="search">Search</div><input class="form-search-field form-control" type="text" name="s" id="search" placeholder="Search"></div><button class="form-search-submit btn" type="submit"><span class="form-search-submit-text">Search</span></button></form></div>          </div>
+        </div>
+
+        <div id="header-navbar-menu-collapse" class="collapse navbar-collapse">
+          <div class="main-links">
+            <ul id="menu-site-menu" class="nav navbar-nav navbar-left allow-dropdown-hover" style="width: 474px;"><li id="menu-item-2322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2322 dropdown"><a href="https://databricks.com/product/databricks" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Product <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://databricks.com/product/databricks">Databricks</a></li>
+	<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://databricks.com/product/faq">FAQ</a></li>
+	<li id="menu-item-4032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4032"><a href="https://forums.databricks.com/">Forums</a></li>
+	<li id="menu-item-4033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4033"><a href="https://databricks.com/product/how-to-get-started">How to Get Started</a></li>
+</ul>
+</li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-145 dropdown"><a href="https://databricks.com/spark/about" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Spark <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="https://databricks.com/spark/about">About Spark</a></li>
+	<li id="menu-item-2169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2169"><a href="https://databricks.com/spark/developer-resources">Developer Resources</a></li>
+	<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://databricks.com/spark/community-and-events">Community + Events</a></li>
+	<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="https://databricks.com/spark/certification">Certification</a></li>
+	<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="https://databricks.com/spark/support">Support</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://databricks.com/spark/training">Training</a></li>
+</ul>
+</li>
+<li id="menu-item-4064" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4064 dropdown"><a href="https://databricks.com/solutions/by-role" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Solutions <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4066"><a href="https://databricks.com/solutions/by-role">By Role</a></li>
+	<li id="menu-item-4065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4065"><a href="https://databricks.com/solutions/by-industry">By Industry</a></li>
+	<li id="menu-item-4067" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4058 current_page_item menu-item-4067 active"><a href="./Team _PTomo_files/Team _PTomo.html">By Use Case</a></li>
+</ul>
+</li>
+<li id="menu-item-4068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4068 hidden-xs"><a href="https://databricks.com/customers">Customers</a></li>
+<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-256 dropdown"><a href="https://databricks.com/company/about-us" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Company <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://databricks.com/company/about-us">About Us</a></li>
+	<li id="menu-item-2109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2109"><a href="https://databricks.com/company/team">Team</a></li>
+	<li id="menu-item-3811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3811"><a href="https://databricks.com/company/newsroom">Newsroom</a></li>
+	<li id="menu-item-4249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4249"><a href="https://databricks.com/company/careers">Careers</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://databricks.com/company/contact">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217 hidden-xs"><a href="https://databricks.com/blog">Blog</a></li>
+<li id="menu-item-4081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4081 dropdown"><a href="https://databricks.com/resources/analyst-reports" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Resources <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4159"><a href="https://databricks.com/resources/analyst-reports">Analyst Reports</a></li>
+	<li id="menu-item-4082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4082"><a href="https://databricks.com/resources/briefs">Briefs</a></li>
+	<li id="menu-item-4083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4083"><a href="https://databricks.com/resources/case-studies">Case Studies</a></li>
+	<li id="menu-item-4084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4084"><a href="https://databricks.com/resources/newsletters">Newsletters</a></li>
+	<li id="menu-item-4085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4085"><a href="https://databricks.com/resources/slides">Slides</a></li>
+	<li id="menu-item-4086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4086"><a href="https://databricks.com/resources/videos">Videos</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children visible-xs"><a href="https://databricks.com/solutions/by-use-case#" class="dropdown-toggle">Links</a><ul class="dropdown-menu"><li id="menu-item-4068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4068"><a href="https://databricks.com/customers">Customers</a></li><li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://databricks.com/blog">Blog</a></li></ul></li></ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs allow-dropdown-hover" style="width: 0px;">
+              <li id="menu-item-4034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4034 hidden-xs"><a href="https://databricks.com/spark/training">Training</a></li>
+<li id="menu-item-4035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4035 hidden-xs"><a href="https://databricks.com/company/careers">Careers</a></li>
+              <li class="menu-icon-search menu-item hidden-xs">
+                <a href="https://databricks.com/solutions/by-use-case#" data-toggle="collapse" data-target="#header-desktop-navbar-search-collapse" title="Search" class="collapsed">
+                  <span class="sr-only">Toggle Search</span>
+                </a>
+
+                <div id="header-desktop-navbar-search-collapse" class="header-desktop-search-container collapse">
+                  <div class="blog-search"><div class="search-form"><form class="form form-search" action="https://databricks.com/" method="get"><div class="form-group"><div class="form-search-label" for="search">Search</div><input class="form-search-field form-control" type="text" name="s" id="search" placeholder="Search"></div><button class="form-search-submit btn" type="submit"><span class="form-search-submit-text">Search</span></button></form></div></div>                </div>
+              </li>
+            <li class="menu-item menu-item-has-children visible-xs"><a href="https://databricks.com/solutions/by-use-case#" class="dropdown-toggle">Links</a><ul class="dropdown-menu"><li id="menu-item-4034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4034"><a href="https://databricks.com/spark/training">Training</a></li><li id="menu-item-4035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4035"><a href="https://databricks.com/company/careers">Careers</a></li><li class="menu-icon-search menu-item">
+                <a href="https://databricks.com/solutions/by-use-case#" data-toggle="collapse" data-target="#header-desktop-navbar-search-collapse" title="Search" class="collapsed">
+                  <span class="sr-only">Toggle Search</span>
+                </a>
+
+                <div id="header-desktop-navbar-search-collapse" class="header-desktop-search-container collapse">
+                  <div class="blog-search"><div class="search-form"><form class="form form-search" action="https://databricks.com/" method="get"><div class="form-group"><div class="form-search-label" for="search">Search</div><input class="form-search-field form-control" type="text" name="s" id="search" placeholder="Search"></div><button class="form-search-submit btn" type="submit"><span class="form-search-submit-text">Search</span></button></form></div></div>                </div>
+              </li></ul></li></ul>
+          </div>
+
+          <div class="blog-links">
+            <div class="blog-navigation">
+    <div class="blog-navigation-section blog-navigation-section-company">
+    <h4 class="blog-navigation-section-title">Company</h4>
+    <ul id="menu-company-blog-links" class="blog-navigation-menu-items"><li id="menu-item-1845" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1845"><a href="https://databricks.com/blog/category/company-blog">All Posts</a></li>
+<li id="menu-item-1846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1846"><a href="https://databricks.com/blog/category/company/partners">Partners</a></li>
+<li id="menu-item-1847" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1847"><a href="https://databricks.com/blog/category/company/events">Events</a></li>
+<li id="menu-item-1844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1844"><a href="https://databricks.com/blog/category/pressreleases">Press Releases</a></li>
+</ul>  </div>
+  
+    <div class="blog-navigation-section blog-navigation-section-developer">
+    <h4 class="blog-navigation-section-title">Developer</h4>
+    <ul id="menu-developer-blog-links" class="blog-navigation-menu-items"><li id="menu-item-1848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1848"><a href="https://databricks.com/blog/category/developer">All Posts</a></li>
+<li id="menu-item-1852" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1852"><a href="https://databricks.com/blog/category/coding/spark">Spark</a></li>
+<li id="menu-item-1850" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1850"><a href="https://databricks.com/blog/category/sparksql">Spark SQL</a></li>
+<li id="menu-item-1849" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1849"><a href="https://databricks.com/blog/category/sparkstreaming">Spark Streaming</a></li>
+<li id="menu-item-1853" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1853"><a href="https://databricks.com/blog/category/coding/mllib">MLlib</a></li>
+<li id="menu-item-1851" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1851"><a href="https://databricks.com/blog/category/sparksummit">Spark Summit</a></li>
+</ul>  </div>
+  </div>
+            <div class="blog-header-link-back">
+              <a href="https://databricks.com/" class="h-link-back">Back to Main Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav></div>
+  <!-- .body-header -->
+<div class="body-content">
+
+
+<div class="page-container">
+                <section class="page-section use-cases-listing-section">
+          <div class="container">
+            <div class="l-formatted">
+                              <div class="section-header">
+                                      <h1 class="section-header-title">Meet the Team</h1>
+                                                        <h1 class="section-header-subtitle"></h1>
+                                  </div>
+              
+              <div class="row">
+<div class=" col-sm-3"><div class="col-inner">
+<img class="alignnone size-full wp-image-4111" src="./Team _PTomo_files/YunjieYang.jpg" alt="prepare_data_icon" width="183" height="186"><br>
+</div></div>
+<div class=" col-sm-8"><div class="col-inner">
+<h1>Yunjie Yang (CEO)</h1>
+<ul>
+<li>Authored 14 peer-reviewed research papers</li>
+<li>Recipient of IEEE Instrumentation & Measurement Society Graduate Fellowship Award</li>
+<li>Fully-funded PhD candidate at University of Edinburgh</li>
+</ul>
+<p>He is a member of IEEE, IEEE Instrumentation & Measurement Society, International Society for Industrial Process Tomography and China Instrument & Control Society. He also serves as the reviewer of several international journals and conferences, e.g., IEEE Transactions on Instrumentation and Measurement, Mechatronics, and IEEE International Conference on Imaging Systems & Techniques.His research spans the area of agile imaging techniques, electrical capacitance tomography, electrical impedance tomography, and cyber physical system for smart buildings..<br>
+</p></div></div>
+</div>
+<div class="row">
+<div class=" col-sm-3"><div class="col-inner">
+<img class="alignnone size-full wp-image-4112" src="./Team _PTomo_files/HuichaoZhao.jpg" alt="perform_analytics_icon" width="158" height="187"><br>
+</div></div>
+<div class=" col-sm-8"><div class="col-inner">
+<h1>Huichao Zhao (co-founder)</h1>
+<ul>
+<li>Authored 7 peer-reviewed research papers</li>
+<li>Veteran Silicon Valley entrepreneur</li>
+<li>CFD, Machine Learning, Parallel Computation</li>
+</ul>
+<p>Huichao Zhao received the B.Eng., M.Sc., and Ph.D. degrees in measurement science and electronics from Changchun Institute of Technology in 2008, Tianjin
+University in 2010, and Tsinghua University in 2015, Beijing, China, respectively.As a seasoned research professional with strong electronics and computer programming background, he has authored more than 7 research papers including 5 SCI indexed and is the National Scholarship recipient. His current research interests include Electrical Capacitance Tomography, Ultrasonic Flow Measurement, CFD, Machine Learning and Parallel Computation.</p>
+</div></div>
+</div>
+<div class="row">
+<div class=" col-sm-3"><div class="col-inner">
+<img class="alignnone size-full wp-image-4113" src="./Team _PTomo_files/LihuiPeng.jpg" alt="build_data_products_icon" width="134" height="129"><br>
+</div></div>
+<div class=" col-sm-8"><div class="col-inner">
+<h1>Lihui Peng (co-founder)</h1>
+<ul>
+<li>Published more than 50 research papers</li>
+<li>Recipient of National Scientific and Technological Progress Award</li>
+<li>Professor in Tsinghua University</li>
+</ul>
+<p>He was as an Assistant Lecturer with Tsinghua University in 1990. He has been a member of the three Chinese National Technical Committees since 2001. He has published more than 50 research papers. His biography has been included in Who’s Who in Science and Engineering since 2006. His current research interests include the measurement techniques for multiphase flow, process tomography, multi-sensor data fusion, and flow measurement and instrumentation..<br>
+</p></div></div>
+</div>
+            </div>
+          </div>
+        </section>
+              <section class="page-section use-cases-cta-section watercolor-bg">
+          <div class="container">
+            <div class="l-formatted">
+                              <div class="section-header">
+                                      <h1 class="section-header-title">Get started today</h1>
+                                                    </div>
+              
+              <div style="text-align: center"><a href="https://accounts.cloud.databricks.com/registration.html#signup" class="btn btn-outline h-btn-color-blue">Sign up for a free trial</a></div>
+            </div>
+          </div>
+        </section>
+        </div>
+
+</div><!-- .body-content -->
+
+<div class="body-footer container">
+  <div class="footer-inner">
+    <div class="row">
+      <div class="col-sm-3 col_widget_nav_menu"><div class="col-inner"><div id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-site-menu-container"><ul id="menu-site-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2322"><a href="https://databricks.com/product">Product</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://databricks.com/product/databricks">Databricks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://databricks.com/product/faq">FAQ</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4032"><a href="https://forums.databricks.com/">Forums</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4033"><a href="https://databricks.com/product/how-to-get-started">How to Get Started</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-145"><a href="https://databricks.com/spark">Spark</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="https://databricks.com/spark/about">About Spark</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2169"><a href="https://databricks.com/spark/developer-resources">Developer Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://databricks.com/spark/community-and-events">Community + Events</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="https://databricks.com/spark/certification">Certification</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="https://databricks.com/spark/support">Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://databricks.com/spark/training">Training</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4064"><a href="https://databricks.com/solutions">Solutions</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4066"><a href="https://databricks.com/solutions/by-role">By Role</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4065"><a href="https://databricks.com/solutions/by-industry">By Industry</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4058 current_page_item menu-item-4067"><a href="./Team _PTomo_files/Team _PTomo.html">By Use Case</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4068"><a href="https://databricks.com/customers">Customers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-256"><a href="https://databricks.com/company">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://databricks.com/company/about-us">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2109"><a href="https://databricks.com/company/team">Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3811"><a href="https://databricks.com/company/newsroom">Newsroom</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4249"><a href="https://databricks.com/company/careers">Careers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://databricks.com/company/contact">Contact</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://databricks.com/blog">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4081"><a href="https://databricks.com/resources">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4159"><a href="https://databricks.com/resources/analyst-reports">Analyst Reports</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4082"><a href="https://databricks.com/resources/briefs">Briefs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4083"><a href="https://databricks.com/resources/case-studies">Case Studies</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4084"><a href="https://databricks.com/resources/newsletters">Newsletters</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4085"><a href="https://databricks.com/resources/slides">Slides</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4086"><a href="https://databricks.com/resources/videos">Videos</a></li>
+</ul>
+</li>
+</ul></div></div></div></div><div class="col-sm-3 col_widget_text"><div class="col-inner"><div id="text-3" class="widget widget_text">			<div class="textwidget"><p>Databricks Inc.<br>
+160 Spear Street, 13th Floor<br>
+San Francisco, CA 94105</p>
+<p><a href="mailto:info@databricks.com">info@databricks.com</a><br>
+1-866-330-0121</p>
+</div>
+		</div></div></div>    </div>
+    <div class="footer-copyright">
+      <div class="row row-rtl">
+        <div class="col-sm-3">
+          <div class="col-inner">
+            <ul class="social-nav list-unstyled">
+              <li>
+                <a href="https://twitter.com/databricks" class="twitter" target="_blank">
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/databricks" class="linkedin" target="_blank">
+                  <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/pages/Databricks/560203607379694" class="facebook" target="_blank">
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://databricks.com/feed" class="rss" target="_blank">
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-9">
+          <div class="col-inner">
+            <p id="copyright" class="copyright-text">© Databricks 2015. All rights reserved. Apache Spark and the Apache Spark Logo are trademarks of the Apache Software Foundation. <a href="https://databricks.com/privacy-policy">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/x-handlebars-template" id="template-video-modal">
+  <div class="modal fade modal-video">
+    <div class="modal-dialog">
+      <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+        <span class="sr-only">Close Modal</span>
+      </button>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="{{ url }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+<!-- Start of Async HubSpot Analytics Code for WordPress v1.9.4 -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n = d.createElement(s),e = document.getElementsByTagName(s)[0];
+  n.id=i;n.src = '//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/438089.js';
+  e.parentNode.insertBefore(n, e);
+})(document, "script", "hs-analytics", 300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+<div id="su-footer-links" style="text-align: center;"></div><script type="text/javascript" src="./Team _PTomo_files/vendor.js"></script>
+<script type="text/javascript" src="./Team _PTomo_files/main.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cc545fdb66","applicationID":"6839999","transactionName":"NgdbNxRUDBFYVxBYWA9NbBEPGk0LV1ABSRkRCkk=","queueTime":0,"applicationTime":245,"ttGuid":"","agentToken":"","atts":"GkBYQVxOHx8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script>
+
+</body></html>
