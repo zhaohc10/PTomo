@@ -78,88 +78,9 @@ The following script will
 
 ## Examples, how to open a bootstrap page
 
-+ open [http://localhost:3001/](http://localhost:3001/)
++ open [http://localhost:3011/](http://localhost:3001/)
 + open the [Starter template](http://localhost:3001/template/starter-template)
 
-## Available templates (sorted)
-
-- [X] [blog](http://getbootstrap.com/examples/blog/)
-- [X] [carousel](http://twbs.github.io/bootstrap/examples/carousel/)
-- [X] [cover](http://getbootstrap.com/examples/cover/)
-- [X] [dashboard](http://getbootstrap.com/examples/dashboard/)
-- [X] [grid](http://twbs.github.io/bootstrap/examples/grid/)
-- [X] [jumbotron-narrow](http://twbs.github.io/bootstrap/examples/jumbotron-narrow/)
-- [X] [jumbotron](http://twbs.github.io/bootstrap/examples/jumbotron/)
-- [X] [justified-nav](http://twbs.github.io/bootstrap/examples/justified-nav/)
-- [X] [navbar-fixed-top](http://twbs.github.io/bootstrap/examples/navbar-fixed-top/)
-- [X] [navbar-static-top](http://twbs.github.io/bootstrap/examples/navbar-static-top/)
-- [X] [navbar](http://twbs.github.io/bootstrap/examples/navbar/)
-- [X] [non-responsive](http://twbs.github.io/bootstrap/examples/non-responsive/)
-- [X] [offcanvas](http://twbs.github.io/bootstrap/examples/offcanvas/)
-- [X] [signin](http://twbs.github.io/bootstrap/examples/signin/)
-- [X] [starter-template](http://twbs.github.io/bootstrap/examples/starter-template/)
-- [X] [sticky-footer-navbar](http://twbs.github.io/bootstrap/examples/sticky-footer-navbar/)
-- [X] [sticky-footer](http://twbs.github.io/bootstrap/examples/sticky-footer/)
-- [X] [theme](http://twbs.github.io/bootstrap/examples/theme/)
-
-
-## Release History
-
-v2014-11-13
-
-+ [Kobi Eisenberg] has [migrated the code](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/pull/5) from [Bootstrap] 3.2.0 to 3.3.1
-
- 
-v2014-10-20
-
-+ [Matan Eine] has [migrated the code](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/pull/4) from [Bootstrap] 3.0.0 to [Bootstrap] 3.2.0
-    + Add Cover template
-    + Add Blog template
-    + Add Dashboard template
-+ [Simon] has found that [the html code was broken](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/issues/3) in the [Bootstrap] 3.0.0
-
-v2014-01-08
-
-+ Correct the chapter "Download the code without Git"
-
-v2014-01-07
-
-+ Add script written by [onlinemad] - a simple script to init a project based on bootstrap3-jade-node-express-grunt: [https://gist.github.com/onlinemad/6373852]
-+ [Petr Volny] has [made two changes](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/pull/2):
-    + Jade npm module update
-    + Fix deprecated jade doctype 5
-
-
-v2013-08-25
-
-+ Convert [offcanvas.html](http://twbs.github.io/bootstrap/examples/offcanvas/) template into [offcanvas.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [signin.html](http://twbs.github.io/bootstrap/examples/signin/) template into [signin.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [starter-template.html](http://twbs.github.io/bootstrap/examples/starter-template/) template into [starter-template.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [sticky-footer.html](http://twbs.github.io/bootstrap/examples/sticky-footer/) template into [sticky-footer.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [sticky-footer-navbar.html](http://twbs.github.io/bootstrap/examples/sticky-footer-navbar/) template into [sticky-footer-navbar.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [theme.html](http://twbs.github.io/bootstrap/examples/theme/) template into [theme.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-
-v2013-08-24
-
-+ Convert [grid.html](http://twbs.github.io/bootstrap/examples/grid/) template into [grid.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [jumbotron.html](http://twbs.github.io/bootstrap/examples/jumbotron/) template into [jumbotron.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [jumbotron-narrow.html](http://twbs.github.io/bootstrap/examples/jumbotron-narrow/) template into [jumbotron-narrow.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [justified-nav.html](http://twbs.github.io/bootstrap/examples/justified-nav/) template into [justified-nav.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [justified-nav.html](http://twbs.github.io/bootstrap/examples/justified-nav/) template into [justified-nav.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [navbar.html](http://twbs.github.io/bootstrap/examples/navbar/) template into [navbar.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [navbar-fixed-top.html](http://twbs.github.io/bootstrap/examples/navbar-fixed-top/) template into [navbar-fixed-top.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [navbar-static-top.html](http://twbs.github.io/bootstrap/examples/navbar-static-top/) template into [navbar-static-top.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ Convert [non-responsive.html](http://twbs.github.io/bootstrap/examples/non-responsive/) template into [non-responsive.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-+ add an issue on the [html2jade] project as ["escaped characters are wrongly translated into html. e.g. &lt; becomes > while it shouldn't be"](https://github.com/donpark/html2jade/issues/57)
-
-v2013-08-22
-
-+ Convert [carousel.html](http://twbs.github.io/bootstrap/examples/carousel/) template into [carousel.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
-
-v2013-08-21
-
-- [Bootstrap] 3 is just released, it is time to convert HTML into Jade templates
-+ Convert [starter-template.html](http://twbs.github.io/bootstrap/examples/starter-template/) template into [starter-template.jade](https://github.com/ALT-F1/bootstrap3-jade-node-express-grunt/tree/master/app/views/bootstrap3-templates)
 
 ## License
 Copyright (c) 2013 ALT-F1, We believe in the projects we work on™
