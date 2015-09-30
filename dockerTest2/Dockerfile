@@ -14,4 +14,4 @@ RUN npm install -g grunt-cli
 RUN npm install -g grunt
 RUN npm install -g forever
 EXPOSE  3011
-CMD ["nodemon", “/src/app/app.js"]
+CMD ["forever", "/src/app/app.js"]
