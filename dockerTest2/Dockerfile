@@ -12,5 +12,6 @@ RUN cd /src; npm install
 
 RUN npm install -g grunt-cli
 RUN npm install -g grunt
+RUN npm install -g forever
 EXPOSE  3011
-#CMD ["node", "/src/index.js"]
+CMD ["nodemon", “/src/app/app.js"]
