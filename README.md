@@ -10,4 +10,6 @@ sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT
 # run docker images under demon
 sudo docker run -ti --rm -p 3011:3011 zhc_web_ptomo
 
-
+#great refer
+http://dockone.io/article/291
+https://blog.codeship.com/running-mean-web-application-docker-containers-aws/
